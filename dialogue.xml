@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<answer>
+	<id>1</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Qui ose me déranger durant ma sieste? Ah... c'est vous ! Cela faisait longtemps que je vous attendais. Permettez-moi de me présenter. Je suis le Chêne de Lafayette. On dit que j'ai été planté ici au XVII siècle par le grand père du Général Lafayette, mais je vous avoue que je ne me souviens pas très bien de mes premières années.</body>
+	<numAnswers>3</numAnswers>
+	<answer1>Bon Ok.voilà un arbre qui parle...Après tout, moi aussi je parle, alors pourquoi pas lui?</answer1>
+	<answer2>Mais?! Tu parles!</answer2>
+	<answer3>Un arbre qui parle. Non mais c'est n'importe quoi !</answer3>
+</answer>
+
+<answer>
+	<id>2</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Oui, je vois sur votre visage la surprise de m'entendre parler. Il est vrai que je reste bien souvent silencieux, mais j'ai senti que je pouvais vous faire confiance.</body>
+	<numAnswers>2</numAnswers>
+	<answer1>Bien sur que tu peux me faire confiance!</answer1>
+	<answer2>Me faire confiance? Je ne suis pas sur que le dernier qui m'ai fait confiance soit de ton avis...</answer2>
+</answer>
+
+<answer>
+	<id>3</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Oh ! Un humain qui parle ! Comme c'est amusant.</body>
+	<numAnswers>2</numAnswers>
+	<answer1>Et un arbe qui fait de l'humour, c'est comment?</answer1>
+	<answer2>Oh ça va ! Ce doit être normal pour un arbre de me prendre de haut, mais je préfère m'en aller.</answer2>
+</answer>
+
+<answer>
+	<id>4</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Bon, très bien... Reviens me voir si tu changes d'avis.</body>
+	<numAnswers>0</numAnswers>
+</answer>
+
+
+<answer>
+	<id>5</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>C'est bien, je vois que vous avez l'esprit ouvert. Je vais donc peut-être pouvoir vous chager d'une mission... </body>
+	<numAnswers>2</numAnswers>
+	<answer1>Une mission? Très bien, je t'ecoute.</answer1>
+	<answer2>Une mission ? Oh non, je n'ai pas que ça à faire !</answer2>
+</answer>
+
+<answer>
+	<id>6</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>En ces temps troubles, les valeurs de liberté, de solidarité et d'aventure, chères au général Lafayette sont en péril. Je lui ai promis de veiller sur elles après sa mort. Pour cela, je conservais auprés de moi trois symboles de ces valeurs. Mais alors que je m'etais assoupi, un voleur me les a dérobé. Mais je sais qu'il n'a pas pu les sortir de l'enceinte du château. C'est pourquoi je te demande, s'il te plait, de les retrouver et de me les ramener ici. </body>
+	<numAnswers>4</numAnswers>
+	<answer1>Ok, c'est parti!</answer1>
+	<answer2>Mais, par où commencer ?</answer2>
+	<answer3>A quoi ressemblent ces symboles?</answer3>
+	<answer4>Trois symboles, et c'est tout ?</answer4>
+</answer>
+
+<answer>
+	<id>7</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Activer la quête des symboles</body>
+	<numAnswers>0</numAnswers>
+</answer>
+
+<answer>
+	<id>8</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Je ne sais pas tout ce que je peux te dire, c'est que les symboles sont éparpillés dans le parc et à l'intérieur du château.</body>
+	<numAnswers>4</numAnswers>
+	<answer1>Ok, c'est parti!</answer1>
+	<answer2>Mais, par où commencer ?</answer2>
+	<answer3>A quoi ressemblent ces symboles?</answer3>
+	<answer4>Trois symboles, et c'est tout ?</answer4>
+</answer>
+
+<answer>
+	<id>9</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Tu les reconnaitras lorsque tu les verras.</body>
+	<numAnswers>4</numAnswers>
+	<answer1>Ok, c'est parti!</answer1>
+	<answer2>Mais, par où commencer ?</answer2>
+	<answer3>A quoi ressemblent ces symboles?</answer3>
+	<answer4>Trois symboles, et c'est tout ?</answer4>
+</answer>
+
+<answer>
+	<id>10</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>En fait, il y a chose...Mais je ne sais pas si je peux te demander ça, cela me gène un peu...</body>
+	<numAnswers>2</numAnswers>
+	<answer1>Bon Ok, j'insiste pas.</answer1>
+	<answer2>Allez, vas'y, on peut tout se dire !</answer2>
+</answer>
+
+<answer>
+	<id>11</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Alors voilà. Le voleur n' pas dérober seulement les trois symbole. il a également volé un portrait du général Lafayette que je conservais précieusement avec moi car je suis... Comment dire... fan du général. Ce malotru l'a violemment déchirè devant moi et a dispersé tous les bouts un peu partout dans le château. Si tu pouvais me ramener tous les morceaux, je t'en serrai éternellemennt reconnaissant.</body>
+	<numAnswers>1</numAnswers>
+	<answer1>Ok, tu peux compter sur moi !</answer1>
+	<fonction>ActiverQueteSymbole()</fonction>
+</answer>
+
+<!-- Choix en fonction du dernier code de sortie == 1 -->
+
+<answer>
+	<id>12</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Alors, tu as changé d'avis ? </body>
+	<numAnswers>2</numAnswers>
+	<answer1>Oui</answer1>
+	<answer2>Non</answer2>
+</answer>
+
+<!-- Choix en fonction du dernier code de sortie == 2 -->
+
+<answer>
+	<id>13</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Je vois que tu n'as pas trouvé les symboles.</body>
+	<numAnswers>4</numAnswers>
+	<answer1>Ok, c'est parti!</answer1>
+	<answer2>Mais, par où commencer ?</answer2>
+	<answer3>A quoi ressemblent ces symboles?</answer3>
+	<answer4>Trois symboles, et c'est tout ?</answer4>
+</answer>
+
+<answer>
+	<id>14</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Super ! Tu as réussis à retrouver les trois symboles ! Merci milles fois !</body>
+	<numAnswers>2</numAnswers>
+	<answer1>Oh tu sais, c'était avec plaisir. S'il y a quoique ce soit que je puisse faire encore pour toi, n'hésite pas à me le demander.</answer1>
+	<answer2>Cela n'a pas été sans mal, je t'avoue être un petit peu fatifué.</answer2>
+	<fonction>FinDuJeu()</fonction>
+</answer>
+
+<!-- Choix en fonction du dernier code de sortie == 3 -->
+
+<answer>
+	<id>15</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Je vois que tu n'as ni trouvé les symboles, ni reconstitué le portrait de mon cher général. Reviens me voir lorsque tu en auras l'un des deux. </body>
+	<numAnswers>0</numAnswers>
+	<fonction>RetourAuJardin()</fonction>
+</answer>
+
+<answer>
+	<id>16</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Génial ! Tu as réussis a reconstituer le portrait de mon cher général Lafayette! j'en suis très ému.</body>
+	<numAnswers>1</numAnswers>
+	<answer1>c'etait un plaisir de mener à bien ta mission.</answer1>
+</answer>
+
+<answer>
+	<id>17</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Tu es sur la bonne voie pour trouver les trois symboles !</body>
+	<numAnswers>2</numAnswers>
+	<answer1>Merci de tes encouragements. J'y retourne de ce pas.
+		<fonction>RetourAuJardin()</fonction>
+	</answer1>
+	<answer2>Peut-être, mais j'y arrive vraiment pas, j'abandonne.
+		<fonction>FinDuJeu()</fonction>
+	</answer2>
+</answer>
+
+<answer>
+	<id>18</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Super ! Tu as réussis  à retrouver les trois symboles ! Merci milles fois !	</body>
+	<numAnswers>1</numAnswers>
+	<answer1>C'était un plaisir de mener à bien ta mission.</answer1>
+</answer>
+
+<answer>
+	<id>19</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Tu es sur la bonne voie pour reconstituer le portrait du général Lafayette!</body>
+	<numAnswers>2</numAnswers>
+	<answer1>Merci des tes encouragements. J'y retourne de ce pas.
+		<fonction>RetourAuJardin()</fonction>
+	</answer1>s
+	<answer2>Peut-être, mais j'y arrive vraiment pas, j'abandonne.
+		<fonction>FinDuJeu()</fonction>
+	</answer2>
+</answer>
+
+<answer>
+	<id>20</id> <!--ID+1-->
+	<to>Player</to>
+	<from>Arbre</from>
+	<body>Merveilleux ! Tu as réussis à retrouver les trois symboles et à reconstituer le portrait du général Lafayette ! Tu es le plus fort !</body>
+	<numAnswers>1</numAnswers>
+	<answer1>Merci</answer1>
+	<fonction>FinDuJeu()</fonction>
+</answer>
