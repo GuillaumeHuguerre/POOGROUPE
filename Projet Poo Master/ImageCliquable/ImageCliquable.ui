@@ -202,9 +202,7 @@
    <container>1</container>
   </customwidget>
  </customwidgets>
- <resources>
-  <include location="ImageCliquable.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>Zone2</sender>

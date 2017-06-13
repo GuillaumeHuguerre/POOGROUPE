@@ -43,9 +43,6 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_ImageCliquable.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
     <ClCompile Include="Tableau.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -64,35 +61,11 @@
     <ClCompile Include="GeneratedFiles\Release\moc_ImageCliquable.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_QLafayetteMenu.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_QLafayetteMenu.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="E:\POOGROUPE-Brancheacharles puzzle\So_DeplacementJardin_v1\ImageCliquable\PiecesList.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_PiecesList.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_PiecesList.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="E:\POOGROUPE-Brancheacharles puzzle\So_DeplacementJardin_v1\ImageCliquable\Puzzle.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_Puzzle.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_Puzzle.cpp">
       <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_Puzzle.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="E:\POOGROUPE-Brancheacharles puzzle\So_DeplacementJardin_v1\ImageCliquable\PuzzleWidget.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_PuzzleWidget.cpp">
       <Filter>Generated Files\Debug</Filter>
@@ -100,53 +73,80 @@
     <ClCompile Include="GeneratedFiles\Release\moc_PuzzleWidget.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PiecesList.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PiecesList.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PuzzleWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PiecesList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Puzzle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_ImageCliquable.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Puzzle.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QLafayetteMenu.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QLafayetteMenu.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="ImageCliquable.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
     <CustomBuild Include="ImageCliquable.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="ImageCliquable.qrc">
-      <Filter>Resource Files</Filter>
+    <CustomBuild Include="Puzzle.ui">
+      <Filter>Form Files</Filter>
     </CustomBuild>
     <CustomBuild Include="QLafayetteMenu.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="ImageCliquable.h">
+    <CustomBuild Include="Puzzle.h">
       <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PuzzleWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PiecesList.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ImageCliquable.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Puzzle.qrc">
+      <Filter>Resource Files</Filter>
     </CustomBuild>
     <CustomBuild Include="QLafayetteMenu.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="E:\POOGROUPE-Brancheacharles puzzle\So_DeplacementJardin_v1\ImageCliquable\PiecesList.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="E:\POOGROUPE-Brancheacharles puzzle\So_DeplacementJardin_v1\ImageCliquable\Puzzle.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="E:\POOGROUPE-Brancheacharles puzzle\So_DeplacementJardin_v1\ImageCliquable\Puzzle.qrc">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="E:\POOGROUPE-Brancheacharles puzzle\So_DeplacementJardin_v1\ImageCliquable\Puzzle.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="E:\POOGROUPE-Brancheacharles puzzle\So_DeplacementJardin_v1\ImageCliquable\PuzzleWidget.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_ImageCliquable.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
     <ClInclude Include="Tableau.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Zone.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_QLafayetteMenu.h">
+    <ClInclude Include="GeneratedFiles\ui_ImageCliquable.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_Puzzle.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_QLafayetteMenu.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
   </ItemGroup>
