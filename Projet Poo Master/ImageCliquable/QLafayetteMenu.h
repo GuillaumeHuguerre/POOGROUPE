@@ -17,6 +17,6 @@ public:
 	
 public slots:
 	void onCarte();
-	void createPuzzle();
+	void onInventaire();
 
 };

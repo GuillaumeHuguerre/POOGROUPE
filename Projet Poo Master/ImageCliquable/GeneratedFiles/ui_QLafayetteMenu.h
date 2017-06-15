@@ -16,7 +16,6 @@
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
-#include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QVBoxLayout>
@@ -33,19 +32,14 @@ public:
     QSpacerItem *horizontalSpacer;
     QGroupBox *groupBox_2;
     QVBoxLayout *verticalLayout_2;
-    QLabel *label_3;
     QPushButton *pushButton_8;
-    QLabel *carte;
     QPushButton *pushButton_9;
-    QLabel *quete;
     QPushButton *pushButton_10;
-    QLabel *enregistrer;
+    QSpacerItem *verticalSpacer_4;
     QPushButton *pushButton_11;
-    QLabel *label_2;
     QPushButton *pushButton_12;
-    QLabel *label;
     QPushButton *pushButton_13;
-    QLabel *information;
+    QSpacerItem *verticalSpacer_3;
     QPushButton *pushButton_14;
     QSpacerItem *verticalSpacer;
     QSpacerItem *verticalSpacer_2;
@@ -54,10 +48,10 @@ public:
     {
         if (QLafayetteMenu->objectName().isEmpty())
             QLafayetteMenu->setObjectName(QStringLiteral("QLafayetteMenu"));
-        QLafayetteMenu->resize(283, 731);
+        QLafayetteMenu->resize(309, 731);
         QLafayetteMenu->setStyleSheet(QLatin1String("QPushButton {\n"
 "	background-color : transparent;\n"
-"	text-align :top, left;\n"
+"	text-align : left;\n"
 "	border : 1px solid white;\n"
 "	padding-left :5px;\n"
 "	color: white;\n"
@@ -78,6 +72,10 @@ public:
         font.setKerning(true);
         pushButton->setFont(font);
         pushButton->setStyleSheet(QStringLiteral("background-color:#6c6c6c;"));
+        QIcon icon;
+        icon.addFile(QStringLiteral("../../../images poo/Hamburger-Menu.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton->setIcon(icon);
+        pushButton->setIconSize(QSize(55, 55));
         pushButton->setCheckable(true);
 
         horizontalLayout->addWidget(pushButton);
@@ -105,103 +103,88 @@ public:
         verticalLayout_2->setSpacing(6);
         verticalLayout_2->setContentsMargins(11, 11, 11, 11);
         verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
-        label_3 = new QLabel(groupBox_2);
-        label_3->setObjectName(QStringLiteral("label_3"));
-        label_3->setPixmap(QPixmap(QString::fromUtf8("../../../../../../kevch/Desktop/images poo/_Inventaire1.jpg")));
-        label_3->setScaledContents(true);
-
-        verticalLayout_2->addWidget(label_3);
-
         pushButton_8 = new QPushButton(groupBox_2);
         pushButton_8->setObjectName(QStringLiteral("pushButton_8"));
         pushButton_8->setMinimumSize(QSize(0, 32));
+        QIcon icon1;
+        icon1.addFile(QStringLiteral("../../../images poo/_Inventaire1.jpg"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_8->setIcon(icon1);
+        pushButton_8->setIconSize(QSize(25, 25));
 
         verticalLayout_2->addWidget(pushButton_8);
-
-        carte = new QLabel(groupBox_2);
-        carte->setObjectName(QStringLiteral("carte"));
-        carte->setPixmap(QPixmap(QString::fromUtf8("../../../../../../kevch/Desktop/images poo/_Carte.png")));
-        carte->setScaledContents(true);
-        carte->setWordWrap(false);
-        carte->setOpenExternalLinks(false);
-
-        verticalLayout_2->addWidget(carte);
 
         pushButton_9 = new QPushButton(groupBox_2);
         pushButton_9->setObjectName(QStringLiteral("pushButton_9"));
         pushButton_9->setMinimumSize(QSize(0, 32));
+        QIcon icon2;
+        icon2.addFile(QStringLiteral("../../../images poo/_Carte.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_9->setIcon(icon2);
+        pushButton_9->setIconSize(QSize(25, 25));
 
         verticalLayout_2->addWidget(pushButton_9);
-
-        quete = new QLabel(groupBox_2);
-        quete->setObjectName(QStringLiteral("quete"));
-        quete->setPixmap(QPixmap(QString::fromUtf8("../../../../../../kevch/Desktop/images poo/_Loupe.png")));
-        quete->setScaledContents(true);
-
-        verticalLayout_2->addWidget(quete);
 
         pushButton_10 = new QPushButton(groupBox_2);
         pushButton_10->setObjectName(QStringLiteral("pushButton_10"));
         pushButton_10->setMinimumSize(QSize(0, 32));
+        QIcon icon3;
+        icon3.addFile(QStringLiteral("../../../images poo/_Loupe.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_10->setIcon(icon3);
+        pushButton_10->setIconSize(QSize(25, 25));
 
         verticalLayout_2->addWidget(pushButton_10);
 
-        enregistrer = new QLabel(groupBox_2);
-        enregistrer->setObjectName(QStringLiteral("enregistrer"));
-        enregistrer->setPixmap(QPixmap(QString::fromUtf8("../../../../../../kevch/Desktop/images poo/_Enregistrer.png")));
-        enregistrer->setScaledContents(true);
+        verticalSpacer_4 = new QSpacerItem(20, 15, QSizePolicy::Minimum, QSizePolicy::Fixed);
 
-        verticalLayout_2->addWidget(enregistrer);
+        verticalLayout_2->addItem(verticalSpacer_4);
 
         pushButton_11 = new QPushButton(groupBox_2);
         pushButton_11->setObjectName(QStringLiteral("pushButton_11"));
         pushButton_11->setMinimumSize(QSize(0, 32));
+        QIcon icon4;
+        icon4.addFile(QStringLiteral("../../../images poo/_Enregistrer.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_11->setIcon(icon4);
+        pushButton_11->setIconSize(QSize(25, 25));
 
         verticalLayout_2->addWidget(pushButton_11);
-
-        label_2 = new QLabel(groupBox_2);
-        label_2->setObjectName(QStringLiteral("label_2"));
-        label_2->setPixmap(QPixmap(QString::fromUtf8("../../../../../../kevch/Desktop/images poo/_Upload.png")));
-        label_2->setScaledContents(true);
-
-        verticalLayout_2->addWidget(label_2);
 
         pushButton_12 = new QPushButton(groupBox_2);
         pushButton_12->setObjectName(QStringLiteral("pushButton_12"));
         pushButton_12->setMinimumSize(QSize(0, 32));
+        QIcon icon5;
+        icon5.addFile(QStringLiteral("../../../images poo/_Upload.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_12->setIcon(icon5);
+        pushButton_12->setIconSize(QSize(25, 25));
 
         verticalLayout_2->addWidget(pushButton_12);
-
-        label = new QLabel(groupBox_2);
-        label->setObjectName(QStringLiteral("label"));
-        label->setPixmap(QPixmap(QString::fromUtf8("../../../../../../kevch/Desktop/images poo/_Retour.png")));
-        label->setScaledContents(true);
-
-        verticalLayout_2->addWidget(label);
 
         pushButton_13 = new QPushButton(groupBox_2);
         pushButton_13->setObjectName(QStringLiteral("pushButton_13"));
         pushButton_13->setMinimumSize(QSize(0, 32));
         pushButton_13->setAcceptDrops(true);
+        QIcon icon6;
+        icon6.addFile(QStringLiteral("../../../images poo/_Retour.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_13->setIcon(icon6);
+        pushButton_13->setIconSize(QSize(25, 25));
         pushButton_13->setAutoDefault(false);
         pushButton_13->setFlat(false);
 
         verticalLayout_2->addWidget(pushButton_13);
 
-        information = new QLabel(groupBox_2);
-        information->setObjectName(QStringLiteral("information"));
-        information->setPixmap(QPixmap(QString::fromUtf8("../../../../../../kevch/Desktop/images poo/_Informations.png")));
-        information->setScaledContents(true);
+        verticalSpacer_3 = new QSpacerItem(20, 25, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
-        verticalLayout_2->addWidget(information);
+        verticalLayout_2->addItem(verticalSpacer_3);
 
         pushButton_14 = new QPushButton(groupBox_2);
         pushButton_14->setObjectName(QStringLiteral("pushButton_14"));
         pushButton_14->setMinimumSize(QSize(0, 32));
+        QIcon icon7;
+        icon7.addFile(QStringLiteral("../../../images poo/_Informations.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_14->setIcon(icon7);
+        pushButton_14->setIconSize(QSize(25, 25));
 
         verticalLayout_2->addWidget(pushButton_14);
 
-        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+        verticalSpacer = new QSpacerItem(20, 10, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         verticalLayout_2->addItem(verticalSpacer);
 
@@ -214,9 +197,9 @@ public:
 
 
         retranslateUi(QLafayetteMenu);
+        QObject::connect(pushButton_8, SIGNAL(pressed()), QLafayetteMenu, SLOT(onInventaire()));
         QObject::connect(pushButton, SIGNAL(toggled(bool)), groupBox_2, SLOT(setHidden(bool)));
         QObject::connect(pushButton_9, SIGNAL(pressed()), QLafayetteMenu, SLOT(onCarte()));
-        QObject::connect(pushButton_8, SIGNAL(pressed()), QLafayetteMenu, SLOT(createPuzzle()));
 
         pushButton_13->setDefault(false);
 
@@ -232,19 +215,12 @@ public:
         groupBox_2->setWhatsThis(QString());
 #endif // QT_NO_WHATSTHIS
         groupBox_2->setTitle(QString());
-        label_3->setText(QString());
         pushButton_8->setText(QApplication::translate("QLafayetteMenu", "Inventaire ", 0));
-        carte->setText(QString());
         pushButton_9->setText(QApplication::translate("QLafayetteMenu", "Carte ", 0));
-        quete->setText(QString());
         pushButton_10->setText(QApplication::translate("QLafayetteMenu", "Qu\303\252te", 0));
-        enregistrer->setText(QString());
         pushButton_11->setText(QApplication::translate("QLafayetteMenu", "Enregistrer ", 0));
-        label_2->setText(QString());
         pushButton_12->setText(QApplication::translate("QLafayetteMenu", "Charger", 0));
-        label->setText(QString());
-        pushButton_13->setText(QApplication::translate("QLafayetteMenu", "Recommencer la partie", 0));
-        information->setText(QString());
+        pushButton_13->setText(QApplication::translate("QLafayetteMenu", "Recommencer ", 0));
         pushButton_14->setText(QApplication::translate("QLafayetteMenu", "Information", 0));
     } // retranslateUi
 

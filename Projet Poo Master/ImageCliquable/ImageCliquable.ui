@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>717</width>
-    <height>657</height>
+    <height>656</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -86,14 +86,27 @@
       <widget class="QPushButton" name="Return">
        <property name="geometry">
         <rect>
-         <x>530</x>
-         <y>330</y>
-         <width>75</width>
-         <height>71</height>
+         <x>544</x>
+         <y>350</y>
+         <width>51</width>
+         <height>41</height>
         </rect>
        </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0,0,0,0);</string>
+       </property>
        <property name="text">
-        <string>Return</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>divers/retour.png</normaloff>divers/retour.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
        </property>
       </widget>
       <widget class="QLafayetteMenu" name="widget_2" native="true">
@@ -104,8 +117,8 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>131</width>
-         <height>601</height>
+         <width>141</width>
+         <height>401</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -173,6 +186,36 @@
         </rect>
        </property>
       </widget>
+      <widget class="Inventaire" name="widget_4" native="true">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>9</y>
+         <width>591</width>
+         <height>391</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="Carte" name="widget_5" native="true">
+       <property name="geometry">
+        <rect>
+         <x>-1</x>
+         <y>-1</y>
+         <width>611</width>
+         <height>401</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="Dialogue" name="widget_6" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>581</width>
+         <height>391</height>
+        </rect>
+       </property>
+      </widget>
       <zorder>Image</zorder>
       <zorder>Zone1</zorder>
       <zorder>Zone2</zorder>
@@ -182,6 +225,9 @@
       <zorder>Zone3</zorder>
       <zorder>Zone5</zorder>
       <zorder>widget_3</zorder>
+      <zorder>widget_4</zorder>
+      <zorder>widget_5</zorder>
+      <zorder>widget_6</zorder>
      </widget>
     </item>
    </layout>
@@ -199,6 +245,24 @@
    <class>Puzzle</class>
    <extends>QWidget</extends>
    <header>Puzzle.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Inventaire</class>
+   <extends>QWidget</extends>
+   <header>Inventaire.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Carte</class>
+   <extends>QWidget</extends>
+   <header>Carte.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Dialogue</class>
+   <extends>QWidget</extends>
+   <header>Dialogue.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

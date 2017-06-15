@@ -19,6 +19,9 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
+#include "Carte.h"
+#include "Dialogue.h"
+#include "Inventaire.h"
 #include "Puzzle.h"
 #include "QLafayetteMenu.h"
 
@@ -39,12 +42,15 @@ public:
     QPushButton *Zone3;
     QPushButton *Zone5;
     Puzzle *widget_3;
+    Inventaire *widget_4;
+    Carte *widget_5;
+    Dialogue *widget_6;
 
     void setupUi(QMainWindow *ImageCliquableClass)
     {
         if (ImageCliquableClass->objectName().isEmpty())
             ImageCliquableClass->setObjectName(QStringLiteral("ImageCliquableClass"));
-        ImageCliquableClass->resize(717, 657);
+        ImageCliquableClass->resize(717, 656);
         ImageCliquableClass->setStyleSheet(QStringLiteral(""));
         centralWidget = new QWidget(ImageCliquableClass);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
@@ -76,11 +82,16 @@ public:
         Image->setScaledContents(true);
         Return = new QPushButton(widget);
         Return->setObjectName(QStringLiteral("Return"));
-        Return->setGeometry(QRect(530, 330, 75, 71));
+        Return->setGeometry(QRect(544, 350, 51, 41));
+        Return->setStyleSheet(QStringLiteral("background-color:rgba(0,0,0,0);"));
+        QIcon icon;
+        icon.addFile(QStringLiteral("divers/retour.png"), QSize(), QIcon::Normal, QIcon::Off);
+        Return->setIcon(icon);
+        Return->setIconSize(QSize(40, 40));
         widget_2 = new QLafayetteMenu(widget);
         widget_2->setObjectName(QStringLiteral("widget_2"));
         widget_2->setEnabled(true);
-        widget_2->setGeometry(QRect(0, 0, 131, 601));
+        widget_2->setGeometry(QRect(0, 0, 141, 401));
         QSizePolicy sizePolicy1(QSizePolicy::Minimum, QSizePolicy::Minimum);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
@@ -101,6 +112,15 @@ public:
         widget_3 = new Puzzle(widget);
         widget_3->setObjectName(QStringLiteral("widget_3"));
         widget_3->setGeometry(QRect(109, -1, 491, 401));
+        widget_4 = new Inventaire(widget);
+        widget_4->setObjectName(QStringLiteral("widget_4"));
+        widget_4->setGeometry(QRect(9, 9, 591, 391));
+        widget_5 = new Carte(widget);
+        widget_5->setObjectName(QStringLiteral("widget_5"));
+        widget_5->setGeometry(QRect(-1, -1, 611, 401));
+        widget_6 = new Dialogue(widget);
+        widget_6->setObjectName(QStringLiteral("widget_6"));
+        widget_6->setGeometry(QRect(10, 0, 581, 391));
         Image->raise();
         Zone1->raise();
         Zone2->raise();
@@ -110,6 +130,9 @@ public:
         Zone3->raise();
         Zone5->raise();
         widget_3->raise();
+        widget_4->raise();
+        widget_5->raise();
+        widget_6->raise();
 
         horizontalLayout->addWidget(widget);
 
@@ -132,7 +155,7 @@ public:
         Zone1->setText(QString());
         Zone2->setText(QString());
         Image->setText(QString());
-        Return->setText(QApplication::translate("ImageCliquableClass", "Return", 0));
+        Return->setText(QString());
         Zone4->setText(QString());
         Zone3->setText(QString());
         Zone5->setText(QString());

@@ -6,6 +6,9 @@ ImageCliquable::ImageCliquable(QWidget *parent)
 {
 	ui.setupUi(this);
 	ui.widget_3->hide();
+	ui.widget_4->hide();
+	ui.widget_5->hide();
+	ui.widget_6->hide();
 
 }
 
@@ -16,6 +19,10 @@ void ImageCliquable::switchImage()
 	if (((IdImg == 660) || (IdImg == 661)) || (IdImg == 50))
 	{
 		pickupSymbol();
+	}
+	if (IdImg == 15)
+	{
+		OpenDialogue();
 	}
 	else
 	{
@@ -64,6 +71,10 @@ void ImageCliquable::switchImage2()
 	{
 		pickupSymbol();
 	}
+	if (IdImg == 15)
+	{
+		OpenDialogue();
+	}
 	else
 	{
 		std::vector<CZone> vZone = m_vTableau[m_nIdImg]->GetVectorOfZone();
@@ -110,6 +121,10 @@ void ImageCliquable::switchImage3()
 	{
 		pickupSymbol();
 	}
+	if (IdImg == 15)
+	{
+		OpenDialogue();
+	}
 	else if (((IdImg == 38)&&key)||(IdImg!=38))
 	{
 		std::vector<CZone> vZone = m_vTableau[m_nIdImg]->GetVectorOfZone();
@@ -150,7 +165,7 @@ void ImageCliquable::switchImage3()
 	}
 	else
 	{
-		ui.Image->setPixmap(QPixmap("interieur/nope.png"));
+		ui.Image->setPixmap(QPixmap("interieur/ferme.jpg"));
 		ui.Zone1->setGeometry(QRect(0, 0, 0, 0));
 		ui.Zone2->setGeometry(QRect(0, 0, 0, 0));
 		ui.Zone3->setGeometry(QRect(0, 0, 0, 0));
@@ -221,11 +236,13 @@ void ImageCliquable::pickupKey()
 {
 	if (key == false) {
 		key = true;
-		ui.Image->setPixmap(QPixmap("interieur/key.jpg"));
+		ui.Image->setPixmap(QPixmap("interieur/key.png"));
 		ui.Zone1->setGeometry(QRect(0, 0, 0, 0));
 		ui.Zone2->setGeometry(QRect(0, 0, 0, 0));
 		ui.Zone3->setGeometry(QRect(0, 0, 0, 0));
 		ui.Zone4->setGeometry(QRect(0, 0, 0, 0));
+		ui.widget_4->setClee();
+		
 	}
 	else {}
 }
@@ -243,6 +260,7 @@ void ImageCliquable::pickupSymbol()
 		ui.Zone2->setGeometry(QRect(0, 0, 0, 0));
 		ui.Zone3->setGeometry(QRect(0, 0, 0, 0));
 		ui.Zone4->setGeometry(QRect(0, 0, 0, 0));
+		ui.widget_4->setLiberte();
 	}
 	if ((!m_bSAventure) && (IdImg == 661))
 	{
@@ -253,6 +271,7 @@ void ImageCliquable::pickupSymbol()
 		ui.Zone2->setGeometry(QRect(0, 0, 0, 0));
 		ui.Zone3->setGeometry(QRect(0, 0, 0, 0));
 		ui.Zone4->setGeometry(QRect(0, 0, 0, 0));
+		ui.widget_4->setAventure();
 	}
 	if ((!m_bSSolidarite) && (IdImg == 50))
 	{
@@ -287,6 +306,7 @@ void ImageCliquable::pickupSymbol()
 		}
 		else ui.Zone5->setGeometry(QRect(0, 0, 0, 0));
 	}
+	ui.widget_4->setSolidarite();
 }
 
 void ImageCliquable::setupPuzzle()
@@ -298,14 +318,22 @@ void ImageCliquable::showPuzzle()
 	ui.widget_3->show();
 }
 
-void ImageCliquable::setImage(std::string img)
+void ImageCliquable::showInventaire()
 {
-	if (img == "carte") {
-		ui.Image->setPixmap(QPixmap("map/map.png"));
-		ui.Zone1->setGeometry(QRect(0, 0, 0, 0));
-		ui.Zone2->setGeometry(QRect(0, 0, 0, 0));
-		ui.Zone3->setGeometry(QRect(0, 0, 0, 0));
-		ui.Zone4->setGeometry(QRect(0, 0, 0, 0));
-		ui.Zone5->setGeometry(QRect(0, 0, 0, 0));
-	}
+	ui.widget_4->show();
+}
+
+void ImageCliquable::OpenMap()
+{
+	ui.widget_5->show();
+}
+
+void ImageCliquable::HideMap() {
+	ui.widget_5->hide();
+}
+
+void ImageCliquable::OpenDialogue()
+{
+	ui.widget_6->show();
+
 }

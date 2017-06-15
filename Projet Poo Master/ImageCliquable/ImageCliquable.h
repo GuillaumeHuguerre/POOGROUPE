@@ -20,6 +20,10 @@ public:
 
 	void setImage(std::string);
 	void pickupSymbol();
+	void showInventaire();
+	void OpenMap();
+	void HideMap();
+	void OpenDialogue();
 	
 public slots: 
 	void switchImage();
@@ -29,6 +33,8 @@ public slots:
 	void pickupKey();
 	void setupPuzzle();
 	void showPuzzle();
+	
+	
 
 private:
 	int m_nElementsHistorique = 0;

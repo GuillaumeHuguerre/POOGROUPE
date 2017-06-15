@@ -10,20 +10,16 @@ QLafayetteMenu::QLafayetteMenu(QWidget *parent)
 QLafayetteMenu::~QLafayetteMenu()
 {
 }
-void QLafayetteMenu::createPuzzle()
-{
 
-
-	ImageCliquable* pImageCliquable = dynamic_cast<ImageCliquable*>(parent()->parent()->parent());
-	pImageCliquable->setupPuzzle();
-	pImageCliquable->showPuzzle();
-}
 
 void QLafayetteMenu::onCarte()
 {
 	ImageCliquable* pImageCliquable = dynamic_cast<ImageCliquable*>(parent()->parent()->parent());
-	pImageCliquable->setImage("carte");
+	pImageCliquable->OpenMap();
 
-	//pImageCliquable->setZones();
 }
 
+void QLafayetteMenu::onInventaire() {
+	ImageCliquable* pImageCliquable = dynamic_cast<ImageCliquable*>(parent()->parent()->parent());
+	pImageCliquable->showInventaire();
+}

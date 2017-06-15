@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>283</width>
+    <width>309</width>
     <height>731</height>
    </rect>
   </property>
@@ -16,7 +16,7 @@
   <property name="styleSheet">
    <string notr="true">QPushButton {
 	background-color : transparent;
-	text-align :top, left;
+	text-align : left;
 	border : 1px solid white;
 	padding-left :5px;
 	color: white;
@@ -61,6 +61,16 @@
        </property>
        <property name="text">
         <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../images poo/Hamburger-Menu.png</normaloff>../../../images poo/Hamburger-Menu.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>55</width>
+         <height>55</height>
+        </size>
        </property>
        <property name="checkable">
         <bool>true</bool>
@@ -118,19 +128,6 @@
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
-       <widget class="QLabel" name="label_3">
-        <property name="text">
-         <string/>
-        </property>
-        <property name="pixmap">
-         <pixmap>../../../../../../kevch/Desktop/images poo/_Inventaire1.jpg</pixmap>
-        </property>
-        <property name="scaledContents">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
        <widget class="QPushButton" name="pushButton_8">
         <property name="minimumSize">
          <size>
@@ -141,24 +138,15 @@
         <property name="text">
          <string>Inventaire </string>
         </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="carte">
-        <property name="text">
-         <string/>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../../images poo/_Inventaire1.jpg</normaloff>../../../images poo/_Inventaire1.jpg</iconset>
         </property>
-        <property name="pixmap">
-         <pixmap>../../../../../../kevch/Desktop/images poo/_Carte.png</pixmap>
-        </property>
-        <property name="scaledContents">
-         <bool>true</bool>
-        </property>
-        <property name="wordWrap">
-         <bool>false</bool>
-        </property>
-        <property name="openExternalLinks">
-         <bool>false</bool>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
         </property>
        </widget>
       </item>
@@ -173,18 +161,15 @@
         <property name="text">
          <string>Carte </string>
         </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="quete">
-        <property name="text">
-         <string/>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../../images poo/_Carte.png</normaloff>../../../images poo/_Carte.png</iconset>
         </property>
-        <property name="pixmap">
-         <pixmap>../../../../../../kevch/Desktop/images poo/_Loupe.png</pixmap>
-        </property>
-        <property name="scaledContents">
-         <bool>true</bool>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
         </property>
        </widget>
       </item>
@@ -199,20 +184,33 @@
         <property name="text">
          <string>Quête</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../../images poo/_Loupe.png</normaloff>../../../images poo/_Loupe.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
+        </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="enregistrer">
-        <property name="text">
-         <string/>
+       <spacer name="verticalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
         </property>
-        <property name="pixmap">
-         <pixmap>../../../../../../kevch/Desktop/images poo/_Enregistrer.png</pixmap>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
         </property>
-        <property name="scaledContents">
-         <bool>true</bool>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>15</height>
+         </size>
         </property>
-       </widget>
+       </spacer>
       </item>
       <item>
        <widget class="QPushButton" name="pushButton_11">
@@ -225,18 +223,15 @@
         <property name="text">
          <string>Enregistrer </string>
         </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_2">
-        <property name="text">
-         <string/>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../../images poo/_Enregistrer.png</normaloff>../../../images poo/_Enregistrer.png</iconset>
         </property>
-        <property name="pixmap">
-         <pixmap>../../../../../../kevch/Desktop/images poo/_Upload.png</pixmap>
-        </property>
-        <property name="scaledContents">
-         <bool>true</bool>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
         </property>
        </widget>
       </item>
@@ -251,18 +246,15 @@
         <property name="text">
          <string>Charger</string>
         </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label">
-        <property name="text">
-         <string/>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../../images poo/_Upload.png</normaloff>../../../images poo/_Upload.png</iconset>
         </property>
-        <property name="pixmap">
-         <pixmap>../../../../../../kevch/Desktop/images poo/_Retour.png</pixmap>
-        </property>
-        <property name="scaledContents">
-         <bool>true</bool>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
         </property>
        </widget>
       </item>
@@ -278,7 +270,17 @@
          <bool>true</bool>
         </property>
         <property name="text">
-         <string>Recommencer la partie</string>
+         <string>Recommencer </string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../../images poo/_Retour.png</normaloff>../../../images poo/_Retour.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
         </property>
         <property name="autoDefault">
          <bool>false</bool>
@@ -292,17 +294,17 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="information">
-        <property name="text">
-         <string/>
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
         </property>
-        <property name="pixmap">
-         <pixmap>../../../../../../kevch/Desktop/images poo/_Informations.png</pixmap>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>25</height>
+         </size>
         </property>
-        <property name="scaledContents">
-         <bool>true</bool>
-        </property>
-       </widget>
+       </spacer>
       </item>
       <item>
        <widget class="QPushButton" name="pushButton_14">
@@ -315,6 +317,16 @@
         <property name="text">
          <string>Information</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../../images poo/_Informations.png</normaloff>../../../images poo/_Informations.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
+        </property>
        </widget>
       </item>
       <item>
@@ -325,7 +337,7 @@
         <property name="sizeHint" stdset="0">
          <size>
           <width>20</width>
-          <height>40</height>
+          <height>10</height>
          </size>
         </property>
        </spacer>
@@ -351,6 +363,22 @@
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
  <connections>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>pressed()</signal>
+   <receiver>QLafayetteMenu</receiver>
+   <slot>onInventaire()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>141</x>
+     <y>110</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>141</x>
+     <y>365</y>
+    </hint>
+   </hints>
+  </connection>
   <connection>
    <sender>pushButton</sender>
    <signal>toggled(bool)</signal>
@@ -383,25 +411,10 @@
     </hint>
    </hints>
   </connection>
-  <connection>
-   <sender>pushButton_8</sender>
-   <signal>pressed()</signal>
-   <receiver>QLafayetteMenu</receiver>
-   <slot>createPuzzle()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>141</x>
-     <y>110</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>141</x>
-     <y>365</y>
-    </hint>
-   </hints>
-  </connection>
  </connections>
  <slots>
   <slot>onCarte()</slot>
   <slot>createPuzzle()</slot>
+  <slot>onInventaire()</slot>
  </slots>
 </ui>

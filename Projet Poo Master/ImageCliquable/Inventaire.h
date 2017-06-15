@@ -1,10 +1,29 @@
 #pragma once
-#include "C:\Qt\5.6\msvc2015_64\include\QtWidgets\qwidget.h"
-class Inventaire :
-	public QWidget
+#include <QtWidgets/QWidget>
+#include "ui_Inventaire.h"
+
+
+class QListWidgetItem;
+
+class Inventaire : public QWidget
 {
+	Q_OBJECT
+
 public:
-	Inventaire();
 
+	Inventaire(QWidget *parent = Q_NULLPTR);
+	void setClee();
+	void setLiberte();
+	void setAventure();
+	void setSolidarite();
+
+private:
+	Ui::InventaireClass ui;
+	int nbfrag = 0;
+
+public slots : 
+
+	void FermeInventaire();
+	void onPuzzle();
+	
 };
-
