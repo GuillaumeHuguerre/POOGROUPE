@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InventaireClass</class>
+ <widget class="QWidget" name="InventaireClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>733</width>
+    <height>707</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Inventaire</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+
+QLabel{
+background-color:#6c6c6c;
+font-size:10px;
+}
+
+QPushButton{
+background-color:#6c6c6c;
+font-size: 10px;
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>20</y>
+     <width>371</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QLabel" name="aventure">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+		background-color:white;
+border-color : black;
+
+border-width:2px;
+border-style:solid;
+}</string>
+      </property>
+      <property name="text">
+       <string>Symbole de l'aventure</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLabel" name="nbfrag">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+		background-color:white;
+border-color : black;
+
+border-width:2px;
+border-style:solid;
+}</string>
+      </property>
+      <property name="text">
+       <string>0/12</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="solidarite">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+		background-color:white;
+border-color : black;
+
+border-width:2px;
+border-style:solid;
+}</string>
+      </property>
+      <property name="text">
+       <string>Symbole de solidarite</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" rowspan="3">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="styleSheet">
+         <string notr="true">background-color : rgba(0,0,0,0);
+background-color:white;
+border-color : black;
+
+border-width:2px;
+border-style:solid;</string>
+        </property>
+        <property name="text">
+         <string>Fermer</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="fragments">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+		background-color:white;
+border-color : black;
+
+border-width:2px;
+border-style:solid;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+border-color : black;
+
+border-width:2px;
+border-style:solid;</string>
+        </property>
+        <property name="text">
+         <string>Appuyez pour résoudre le puzzle</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="Liberte">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+		background-color:white;
+border-color : black;
+
+border-width:2px;
+border-style:solid;
+}</string>
+      </property>
+      <property name="text">
+       <string>Symbole de liberte</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="clee">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	background-color:white;
+border-color : black;
+
+border-width:2px;
+border-style:solid;
+}</string>
+      </property>
+      <property name="text">
+       <string>Clé</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Inventaire.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>pressed()</signal>
+   <receiver>InventaireClass</receiver>
+   <slot>FermeInventaire()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>399</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>366</x>
+     <y>353</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>pressed()</signal>
+   <receiver>InventaireClass</receiver>
+   <slot>onPuzzle()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>399</x>
+     <y>234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>366</x>
+     <y>353</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>FermeInventaire()</slot>
+  <slot>onPuzzle()</slot>
+ </slots>
+</ui>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tableau" Collapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgAAAEAAAAAAAAAACAAAAAKAAABACAAAAAAAAAAAA=</HashCode>
+      <FileName>Tableau.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CZone" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAACAQAAAAAABAAAAAEAAIAABAgEAAYAA=</HashCode>
+      <FileName>Zone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageCliquable" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAEAAEAgAFACAoQSEBAAAAAQAAACAIAAgAABAACA=</HashCode>
+      <FileName>ImageCliquable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Carte" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Carte.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puzzle" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAQAIAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Puzzle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PuzzleWidget" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CFQAAgAAAEAAAAAABAAAAAAiIAAQAIAAAEAAAAEAAAg=</HashCode>
+      <FileName>PuzzleWidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PiecesList" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAAAAAAEAAAAAAAAAAAAABIAAAAAAAAAgAAAEAAAA=</HashCode>
+      <FileName>PiecesList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLafayetteMenu" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAEAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>QLafayetteMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventaire" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAUAAAAAAAgEAAAAAAAAAACAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Inventaire.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dialogue" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAQAEAAAQCEAAECAAAIAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Dialogue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_CarteClass" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAABAAAAAAAAAAAAQAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_Carte.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_ImageCliquableClass" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAACAQQEAAABAIBgAAAAAAAQAIBAAAAIEEAAABAA=</HashCode>
+      <FileName>GeneratedFiles\ui_ImageCliquable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_InventaireClass" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IoABAAAIAAAAAAAAAAAAAAACAAQAIAAAAIABQEAAABA=</HashCode>
+      <FileName>GeneratedFiles\ui_Inventaire.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_PuzzleClass" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_Puzzle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_QLafayetteMenu" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIABAIAAAAAAAAAAAAAAAAQAIAAAAAAfAEDAJBA=</HashCode>
+      <FileName>GeneratedFiles\ui_QLafayetteMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_DialogueClass" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAEAAAAAAQCIQAEAACAAAAAYAk=</HashCode>
+      <FileName>GeneratedFiles\ui_Dialogue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::CarteClass" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_Carte.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::ImageCliquableClass" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_ImageCliquable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::InventaireClass" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_Inventaire.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::PuzzleClass" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_Puzzle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::QLafayetteMenu" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_QLafayetteMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::DialogueClass" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_Dialogue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

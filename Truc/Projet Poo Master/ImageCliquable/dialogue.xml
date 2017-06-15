@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<general>
+<Question id="Q1" value="Qui ose me déranger durant ma sieste? Ah... c'est vous ! Cela faisait longtemps que je vous attendais. Permettez-moi de me présenter.
+	Je suis le Chêne de Lafayette. On dit que j'ai été planté ici au XVII siècle par le grand père du Général Lafayette, 
+	mais je vous avoue que je ne me souviens pas très bien de mes premières années.">
+
+		<Answer id="Q2" value="Bon Ok.voilà un arbre qui parle...Après tout, moi aussi je parle, alors pourquoi pas lui ?"></Answer>
+		<Answer id="Q3" value="Mais ?! Tu parles !"></Answer>
+		<Answer id="Q4" value="Un arbre qui parle. Non mais c'est n'importe quoi !"></Answer>
+	
+</Question>
+
+<Question id="Q2" value="C'est bien, je vois que vous avez l'esprit ouvert. Je vais donc peut-être pouvoir vous chager d'une mission... ">
+	
+		<Answer id="Q5" value="Une mission ? Très bien, je t'ecoute."></Answer>
+		<Answer id="Q6" value="Une mission ? Oh non, je n'ai pas que ça à faire !"></Answer>
+	
+</Question>
+
+<Question id="Q3" value="Oui, je vois sur votre visage la surprise de m'entendre parler. Il est vrai que je reste bien souvent silencieux, 
+	mais j'ai senti que je pouvais vous faire confiance.">
+
+		<Answer id="Q2" value="Bien sûr que tu peux me faire confiance !"></Answer>
+		<Answer id="Q6" value="Me faire confiance? Je ne suis pas sur que le dernier qui m'ai fait confiance soit de ton avis..."></Answer>
+	
+</Question>
+
+<Question id="Q4" value="Oh ! Un humain qui parle ! Comme c'est amusant.">
+
+		<Answer id="Q2" value="Et un arbe qui fait de l'humour, c'est comment ?"></Answer>
+		<Answer id="Q6" value="Oh ça va ! Ce doit être normal pour un arbre de me prendre de haut, mais je préfère m'en aller."></Answer>
+	
+</Question>
+
+<Question id="Q5" value="En ces temps troubles, les valeurs de liberté, de solidarité et d'aventure, chères au général Lafayette sont en péril. 
+	Je lui ai promis de veiller sur elles après sa mort. Pour cela, je conservais auprés de moi trois symboles de ces valeurs. 
+	Mais alors que je m'etais assoupi, un voleur me les a dérobé. Mais je sais qu'il n'a pas pu les sortir de l'enceinte du château. 
+	C'est pourquoi je te demande, s'il te plait, de les retrouver et de me les ramener ici.">
+
+		<Answer id="Q7" value="Ok, c'est parti!"></Answer>
+		<Answer id="Q8" value="Mais, par où commencer ?"></Answer>
+		<Answer id="Q9" value="A quoi ressemblent ces symboles ?"></Answer>
+		<Answer id="Q10" value="Trois symboles, et c'est tout ?"></Answer>
+	
+</Question>
+
+<Question id="Q6" value="Bon, très bien... Reviens me voir si tu changes d'avis.">
+
+		<Answer id="Sortie_1" value="Ok"></Answer>
+		
+</Question>
+
+<Question id="Q7" value="Activer la quête des symboles">
+
+		<Answer id="Sortie_2"></Answer>
+		
+</Question>
+
+<Question id="Q8" value="Je ne sais pas tout ce que je peux te dire, c'est que les symboles sont éparpillés dans le parc et à
+	l'intérieur du château.">
+
+		<Answer id="Q7" value="Ok, c'est parti!"></Answer>
+		<Answer id="Q8" value="Mais, par où commencer ?"></Answer>
+		<Answer id="Q9" value="A quoi ressemblent ces symboles ?"></Answer>
+		<Answer id="Q10" value="Trois symboles, et c'est tout ?"></Answer>
+	
+</Question>
+
+<Question id="Q9" value="Tu les reconnaitras lorsque tu les verras.">
+
+		<Answer id="Q7" value="Ok, c'est parti!"></Answer>
+		<Answer id="Q8" value="Mais, par où commencer ?"></Answer>
+		<Answer id="Q9" value="A quoi ressemblent ces symboles ?"></Answer>
+		<Answer id="Q10" value="Trois symboles, et c'est tout ?"></Answer>
+	
+</Question>
+
+<Question id="Q10" value="En fait, il y a chose...Mais je ne sais pas si je peux te demander ça, cela me gène un peu...">
+
+		<Answer id="Q5" value="Bon Ok, j'insiste pas."></Answer>
+		<Answer id="Q11" value="Allez, vas'y, on peut tout se dire !"></Answer>
+	
+</Question>
+
+<Question id="Q11" value="Alors voilà. Le voleur n' pas dérober seulement les trois symbole. il a également volé un portrait du général Lafayette
+	que je conservais précieusement avec moi car je suis... Comment dire... fan du général. Ce malotru l'a violemment déchirè devant
+	moi et a dispersé tous les bouts un peu partout dans le château. Si tu pouvais me ramener tous les morceaux, 
+	je t'en serrai éternellemennt reconnaissant.">
+
+		<Answer id="Q12" value="Ok, tu peux compter sur moi !"></Answer>
+	
+</Question>
+
+<Question id="Q12" value="Activer la quête du portrait">
+
+		<Answer id="Sortie_3"></Answer>
+	
+</Question>
+
+<!-- Choix en fonction du dernier code de sortie == 1 -->
+
+<Question id="Q13" value="Alors, tu as changé d'avis ?">
+
+		<Answer id="Q2" value="Oui"></Answer>
+		<Answer id="Q6" value="Non"></Answer>
+	
+</Question>
+
+<!-- Choix en fonction du dernier code de sortie == 2 -->
+
+<Question id="Q14" value="Je vois que tu n'as pas trouvé les symboles.">
+
+		<Answer id="Q7" value="Ok, c'est parti!"></Answer>
+		<Answer id="Q8" value="Mais, par où commencer ?"></Answer>
+		<Answer id="Q9" value="A quoi ressemblent ces symboles ?"></Answer>
+		<Answer id="Q10" value="Trois symboles, et c'est tout ?"></Answer>
+	
+</Question>
+
+<Question id="Q15" value="Super ! Tu as réussis à retrouver les trois symboles ! Merci milles fois !">
+
+		<Answer id="Q10" value="Oh tu sais, c'était avec plaisir. S'il y a quoique ce soit que je puisse faire encore pour toi, 
+		n'hésite pas à me le demander."></Answer>
+		<Answer id="FinDuJeu_1" value="Cela n'a pas été sans mal, je t'avoue être un petit peu fatifué."></Answer>
+		
+	
+</Question>
+
+<!-- Choix en fonction du dernier code de sortie == 3 -->
+
+<Question id="Q16" value="Je vois que tu n'as ni trouvé les symboles, ni reconstitué le portrait de mon cher général. 
+	Reviens me voir lorsque tu en auras l'un des deux. ">
+
+		<Answer id="Sortie_3" value="Ok"></Answer>
+		
+</Question>
+
+<Question id="Q17" value="Génial ! Tu as réussis a reconstituer le portrait de mon cher général Lafayette! j'en suis très ému.">
+
+		<Answer id="18" value="C'etait un plaisir de mener à bien ta mission."></Answer>
+		
+</Question>
+
+<Question id="Q18" value="Tu es sur la bonne voie pour trouver les trois symboles !">
+
+		<Answer id="Sortie_3" value="Merci de tes encouragements. J'y retourne de ce pas."></Answer>
+		<Answer id="FinDuJeu_2" value="Peut-être, mais j'y arrive vraiment pas, j'abandonne."></Answer>
+		
+</Question>
+
+<Question id="Q19" value="Super ! Tu as réussis  à retrouver les trois symboles ! Merci milles fois !">
+
+		<Answer id="20" value="C'était un plaisir de mener à bien ta mission."></Answer>
+		
+</Question>
+
+<Question id="Q20" value="Tu es sur la bonne voie pour reconstituer le portrait du général Lafayette!">
+
+		<Answer id="Sortie_3" value="Merci de tes encouragements. J'y retourne de ce pas."></Answer>
+		<Answer id="FinDuJeu_3" value="Peut-être, mais j'y arrive vraiment pas, j'abandonne."></Answer>
+		
+</Question>
+
+<Question id="Q21" value="Merveilleux ! Tu as réussis à retrouver les trois symboles et à reconstituer le portrait
+	du général Lafayette ! Tu es le plus fort !">
+
+		<Answer id="FinDuJeu_4" value="Merci"></Answer>
+		
+</Question>
+</general>
