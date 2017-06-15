@@ -80,7 +80,7 @@ public:
         widget_2 = new QLafayetteMenu(widget);
         widget_2->setObjectName(QStringLiteral("widget_2"));
         widget_2->setEnabled(true);
-        widget_2->setGeometry(QRect(0, 0, 131, 601));
+        widget_2->setGeometry(QRect(0, -10, 161, 411));
         QSizePolicy sizePolicy1(QSizePolicy::Minimum, QSizePolicy::Minimum);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
